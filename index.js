@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const client = require('./connection')
 const app = express()
 
-app.listen(3100,()=>{
+app.listen(3000 ,()=>{
     console.log('server running in port:3100')
 })
 
